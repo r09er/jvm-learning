@@ -1,0 +1,5 @@
+@startuml
+ClassLoader -> ClassLoader:getSystemClassLoader
+ClassLoader -> ClassLoader:initSystemClassLoader
+ClassLoader -> Launcher:getLauncher
+@enduml
